@@ -20,9 +20,18 @@ async function startApp() {
     app.get("/", {}, async (request, reply) => {
       console.log("/");
       try {
-        reply.send({ success: true });
+        await reply.sendFile("index.html");
       } catch (error) {
         console.error("/", error);
+      }
+    });
+
+    app.get("/test", {}, (request, reply) => {
+      console.log("/test");
+      try {
+        reply.send({ success: true, page: "test" });
+      } catch (error) {
+        console.error("/test", error);
       }
     });
 
