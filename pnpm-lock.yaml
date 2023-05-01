@@ -16,9 +16,6 @@ dependencies:
   nodemon:
     specifier: ^2.0.22
     version: 2.0.22
-  papaparse:
-    specifier: ^5.4.1
-    version: 5.4.1
 
 packages:
 
@@ -591,10 +588,6 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       yocto-queue: 0.1.0
-    dev: false
-
-  /papaparse@5.4.1:
-    resolution: {integrity: sha512-HipMsgJkZu8br23pW15uvo6sib6wne/4woLZPlFf3rpDyMe9ywEXUsuD7+6K9PRkJlVT51j/sCOYDKGGS3ZJrw==}
     dev: false
 
   /picomatch@2.3.1:

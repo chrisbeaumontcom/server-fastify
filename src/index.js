@@ -1,4 +1,3 @@
-// console.log("Hello from API");
 import "./env.js";
 import { fastify } from "fastify";
 import fastifyStatic from "@fastify/static";
