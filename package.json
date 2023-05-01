@@ -1,7 +1,7 @@
 {
-  "name": "server-shopify",
+  "name": "server-fastify",
   "version": "1.0.0",
-  "description": "Scripts for MSW",
+  "description": "Boilerplate ES6 setup fastify server with mongobd",
   "main": "./src/index.js",
   "type": "module",
   "scripts": {
