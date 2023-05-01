@@ -1,0 +1,22 @@
+{
+  "name": "server-shopify",
+  "version": "1.0.0",
+  "description": "Scripts for MSW",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "chris",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/static": "^6.10.1",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.17.0",
+    "mongodb": "^5.3.0",
+    "nodemon": "^2.0.22",
+    "papaparse": "^5.4.1"
+  }
+}
